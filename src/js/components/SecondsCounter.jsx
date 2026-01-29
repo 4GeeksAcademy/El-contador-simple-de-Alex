@@ -2,7 +2,7 @@ import React from "react";
 
 const SecondsCounter = (props) => {
   const padded = String(props.seconds).padStart(6, "0");
-  const digits = padded.split(""); // ["0","0","0","0","4","2"]
+  const digits = padded.split(""); 
 
   return (
     <div className="d-flex justify-content-center mt-4">
